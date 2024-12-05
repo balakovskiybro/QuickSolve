@@ -1,0 +1,8 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    & button{
+        border-radius: 0px;
+    }
+}

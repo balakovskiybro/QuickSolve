@@ -1,0 +1,18 @@
+.specialist {
+    &__list {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 40px;
+    }
+
+    &__link {
+        font-size: 20px;
+        font-weight: 450;
+
+        & img {
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+    }
+}

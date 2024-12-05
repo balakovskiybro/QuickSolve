@@ -1,0 +1,10 @@
+
+.close {
+    font-weight: 500;
+    padding: 35px;
+
+    &::before {
+        content: '\2190';
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,1 @@
+export {ServicesDetail} from './ui/ServicesDetail'

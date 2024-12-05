@@ -1,0 +1,1 @@
+export {SpecialistsCategory} from './ui/SpecialistsCategory'

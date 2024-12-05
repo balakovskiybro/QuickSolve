@@ -1,0 +1,161 @@
+.services {
+    margin-bottom: 272px;
+    &__wrapper {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 150px auto 200px;
+        padding: 30px;
+        border-radius: 15px;
+
+        & img {
+            width: 117px;
+        }
+    }
+
+    &__name {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 13px;
+    }
+
+    &__reviews {
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+
+        & p {
+            color: rgba(124, 181, 24, 1);
+            font-weight: 700;
+        }
+    }
+
+    &__review {
+        display: flex;
+
+        & p {
+            margin: auto 0;
+            color: rgba(0, 0, 0, 1);
+        }
+
+        & img {
+            width: 14px;
+            height: 14px;
+            margin-right: 5px;
+        }
+    }
+
+    &__valuation {
+        color: rgba(0, 0, 0, 1);
+    }
+
+    &__valuations {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 40px;
+    }
+
+    &__how {
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+
+    &__average {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__check {
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+
+        & img {
+            width: 20px;
+            margin-right: 5px;
+        }
+
+        & p {
+            margin: auto 0;
+        }
+    }
+
+    &__works {
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+
+        &__img {
+            height: 137px;
+        }
+    }
+
+    &__descr {
+        margin-top: 10px;
+        line-height: 20px;
+        max-width: 706px;
+
+        & p:first-child {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__skills {
+        margin-top: 30px;
+    }
+
+    &__all {
+        font-weight: 550;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    &__write {
+        text-align: center;
+    }
+
+
+    &__choice {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__values {
+        margin-top: 40px;
+    }
+
+    &__value {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 15px auto 15px;
+    }
+
+    &__line {
+        border: 1px solid;
+        background-color: rgba(243, 222, 44, 1);
+        border-radius: 100px;
+        margin: 3px;
+    }
+
+    &__comment {
+        margin-top: 50px;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 25px;
+    }
+
+    &__date {
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    &__feedback {
+        margin-bottom: 100px;
+    }
+
+    &__button {
+        margin: 20px 0;
+    }
+
+}

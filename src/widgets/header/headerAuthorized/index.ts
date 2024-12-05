@@ -1,0 +1,1 @@
+export { HeaderAuthorized } from './ui/HeaderAuthorized'

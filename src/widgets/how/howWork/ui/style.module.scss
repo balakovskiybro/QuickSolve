@@ -1,0 +1,43 @@
+.how {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 160px;
+        margin-top: 40px;
+    }
+
+    &__top {
+        display: flex;
+        gap: 40px;
+        align-items: end;
+    }
+
+    &__img {
+        background-color: rgba(243, 222, 44, 0.8);
+        padding: 50px;
+        border-radius: 15px;
+
+        & img {
+            height: 80px
+        }
+    }
+
+    &__num {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70.31px;
+    }
+
+    &__subtitle {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37.5px;
+        margin-top: 10px;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+}

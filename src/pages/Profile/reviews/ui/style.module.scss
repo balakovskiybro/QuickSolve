@@ -1,0 +1,93 @@
+.services {
+    margin-bottom: 218px;
+    &__values {
+        margin-top: 40px;
+    }
+
+    &__choice {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__name {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 13px;
+    }
+
+    &__review {
+        display: flex;
+
+        & p {
+            margin: auto 0;
+            color: rgba(0, 0, 0, 1);
+        }
+
+        & img {
+            width: 14px;
+            height: 14px;
+            margin-right: 5px;
+        }
+    }
+
+    &__average {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__valuations {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 40px;
+    }
+
+    &__value {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 15px auto 15px;
+    }
+
+    &__valuation {
+        color: rgba(0, 0, 0, 1);
+    }
+
+    &__how {
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+
+    &__line {
+        border: 1px solid;
+        background-color: rgba(243, 222, 44, 1);
+        border-radius: 100px;
+        margin: 3px;
+    }
+
+    &__feedback {
+        margin-bottom: 100px;
+    }
+
+    &__comment {
+        margin-top: 50px;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 25px;
+    }
+
+    &__descr {
+        margin-top: 10px;
+        line-height: 20px;
+        max-width: 706px;
+
+        & p:first-child {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__date {
+        color: rgba(0, 0, 0, 0.5);
+    }
+}

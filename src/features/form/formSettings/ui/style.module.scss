@@ -1,0 +1,39 @@
+.form {
+    text-align: start;
+    max-width: 450px;
+
+    & input {
+        border: 1px solid rgba(0, 0, 0, 0.7);
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+
+    & label {
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    &__wrap {
+        margin: 40px auto 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
+
+.card {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
+    width: 418px;
+
+    &__data {
+        display: flex;
+        gap: 10px;
+
+        & input {
+            margin-top: 15px;
+            width: 175px;
+        }
+    }
+}

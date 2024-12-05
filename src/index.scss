@@ -1,0 +1,101 @@
+@import "nullstyle.css";
+
+/* main{
+    max-width: 1200px;
+} */
+h1 {
+    font-size: 28px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 60px;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 550;
+}
+
+h5 {
+    font-size: 36px;
+    line-height: 42.19px;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.category {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+
+    &__button {
+        color: rgba(255, 255, 255, 1);
+        font-weight: 500;
+        background-color: rgba(251, 60, 7, 0.9);
+        border-radius: 20px;
+        padding: 5px 30px;
+    }
+}
+
+.search {
+    &__container {
+        display: flex;
+        gap: 135px;
+        padding-top: 50px;
+    }
+}
+
+
+
+.green-btn {
+    background-color: rgba(124, 181, 24, 1);
+    border-radius: 15px;
+    padding: 10px 45px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.subscr {
+
+    &__level {
+        font-size: 32px;
+        font-weight: 700;
+        border-bottom: 1px solid black;
+        padding: 10px;
+
+        &-grn {
+            border-radius: 15px 15px 0 0;
+            background-color: rgba(124, 181, 24, 1);
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+
+    &__button {
+        margin-top: 40px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+}
+
+.how {
+    margin-top: 100px;
+}
